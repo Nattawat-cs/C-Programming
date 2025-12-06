@@ -60,7 +60,7 @@ int getUserChoice(){
 int checkWinner(int userChoice, int computerChoice){
 
    if(userChoice == computerChoice){
-      printf("It's a TIE!";)
+      printf("It's a TIE!");
    }
    else if(userChoice == 1 && computerChoice == 3){
       printf("You WIN!");
